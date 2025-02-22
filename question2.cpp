@@ -3,7 +3,7 @@
 using namespace std;
 
 //delete adjacent duplicates , abbaca = ca
-
+// c a
 int main(){
 	string word;
 	stack<char> stacky;
@@ -21,7 +21,7 @@ int main(){
 		output += stacky.top();
 		stacky.pop();
 	}
-	reverse(output.begin(), output.end()); //must reverse it...
+	reverse(output.begin(), output.end()); //must reverse it... 
 
 	cout << output << endl;
 	return 0;
